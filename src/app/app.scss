@@ -1,0 +1,18 @@
+.main {
+  /* Set up the main area to take full height and use flexbox for centering */
+  min-height: 100vh; /* Ensures it takes up the whole viewport height */
+  display: flex;
+  justify-content: center; /* Centers .content horizontally */
+}
+
+.content {
+  /* Use flexbox to stack the children (h1 and p) vertically */
+  display: flex;
+  flex-direction: column; /* Stacks children top-to-bottom */
+  align-items: center; /* Centers the h1 and p text horizontally */
+}
+
+h1 {
+  /* Optional: Adjust font size for the header */
+  font-size: 3em; 
+}
